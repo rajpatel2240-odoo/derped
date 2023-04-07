@@ -123,7 +123,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" groups="pdk-fs" remote="derp" />
-  <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/DerpLauncher" name="packages_apps_DerpLauncher" groups="pdk-fs" remote="derp" revision="13-exp" />
   <project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" groups="pdk-fs" remote="derp" revision="13-exp" />
   <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" groups="pdk-fs" remote="derp" />
