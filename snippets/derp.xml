@@ -174,9 +174,9 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />
-  <project path="vendor/derp" name="vendor_derp" remote="derp">
+  <!-- <project path="vendor/derp" name="vendor_derp" remote="derp">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
-  </project>
+  </project> -->
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
   <project path="vendor/gms" name="DerpFest/13_vendor_gms" remote="gitlab" revision="13" clone-depth="1" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="derp" />
@@ -202,5 +202,21 @@
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="derp" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="derp" />
   <project path="vendor/support" name="vendor_support" remote="derp" />
+
+  <!-- Dubai Repos -->
+  <project name="rajpatel2240-odoo/device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="14"/>
+  <project name="rajpatel2240-odoo/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="14"/>
+  <project path="hardware/motorola" name="surajdazz/hardware_motorola" remote="github" revision="13"/>
+  <project name="the-muppets/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-20" clone-depth="1" />
+  <project name="the-muppets/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-20" clone-depth="1" />
+  <project name="rajpatel2240-odoo/android_kernel_motorola_dubai" path="kernel/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20"/>
+  <project name="surajdazz1/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai"/>
+
+  <!-- <project path="packages/apps/Dialer" name="surajdazz/packages_apps_Dialer" remote="github" revision="13" /> -->
+  <project path="vendor/bcr" name="rajpatel2240-odoo/vendor_bcr" remote="github" revision="13"/>
+  <project path="vendor/derp" name="rajpatel2240-odoo/vendor_derp" remote="github" revision="14">
+    <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
+  </project>
 
 </manifest>
