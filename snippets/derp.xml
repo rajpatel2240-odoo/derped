@@ -215,7 +215,7 @@
 
   <!-- <project path="packages/apps/Dialer" name="surajdazz/packages_apps_Dialer" remote="github" revision="13" /> -->
   <project path="vendor/bcr" name="rajpatel2240-odoo/vendor_bcr" remote="github" revision="13"/>
-  <project path="vendor/derp" name="rajpatel2240-odoo/vendor_derp" remote="github" revision="14">
+  <project path="vendor/derp" name="rajpatel2240-odoo/vendor_derp" remote="github" revision="13">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
 
