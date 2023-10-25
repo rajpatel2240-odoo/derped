@@ -204,8 +204,8 @@
   <project path="vendor/support" name="vendor_support" remote="derp" />
 
   <!-- Dubai Repos -->
-  <project name="rajpatel2240-odoo/device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="14"/>
-  <project name="rajpatel2240-odoo/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="14"/>
+  <project name="rajpatel2240-odoo/device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="13"/>
+  <project name="rajpatel2240-odoo/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="13"/>
   <project path="hardware/motorola" name="surajdazz/hardware_motorola" remote="github" revision="13"/>
   <project name="the-muppets/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-20" clone-depth="1" />
   <project name="the-muppets/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-20" clone-depth="1" />
