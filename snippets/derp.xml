@@ -208,7 +208,7 @@
   <project name="rajpatel2240-odoo/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="13"/>
   <project path="hardware/motorola" name="surajdazz/hardware_motorola" remote="github" revision="13"/>
   <project name="rajpatel2240-odoo/android_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
-  <project name="ArrowOS-Devices/android_vendor_motorola_sm7325-common" path="vendor/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
+  <project name="ArrowOS-Devices/android_vendor_motorola_sm7325-common" path="vendor/motorola//sm7325-common" remote="github" revision="arrow-13.1" clone-depth="1" />
   <project name="rajpatel2240-odoo/android_kernel_motorola_dubai" path="kernel/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20"/>
   <project name="surajdazz1/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai"/>
