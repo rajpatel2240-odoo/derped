@@ -26,7 +26,7 @@
   <!-- DerpFest -->
   <!-- Rootdir -->
   <project path="art" name="art" groups="pdk" remote="derp" />
-  <project path="bionic" name="bionic" groups="pdk" remote="derp" />
+<!--   <project path="bionic" name="bionic" groups="pdk" remote="derp" /> -->
   <project path="manifest" name="manifest" remote="derp" />
 
   <!-- Bootable -->
@@ -49,7 +49,7 @@
   <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="derp" />
 
   <!-- Device -->
-  <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
+<!--   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" /> -->
   <project path="device/generic/common" name="device_generic_common" groups="pdk" remote="derp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,qssi" remote="derp" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,sdm660" remote="derp" revision="13-legacy-um" />
@@ -115,7 +115,7 @@
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="derp" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,sdm660" remote="derp" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="derp" revision="13-caf" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" />
+<!--   <project path="hardware/interfaces" name="hardware_interfaces" remote="derp" /> -->
   <project path="hardware/lineage/interfaces" name="hardware_derp_interfaces" remote="derp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="derp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="derp" />
@@ -207,16 +207,21 @@
   <project name="rajpatel2240-odoo/device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="13"/>
   <project name="rajpatel2240-odoo/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="13"/>
   <project path="hardware/motorola" name="surajdazz/hardware_motorola" remote="github" revision="13"/>
-  <project name="the-muppets/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-20" clone-depth="1" />
-  <project name="the-muppets/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-20" clone-depth="1" />
+  <project name="rajpatel2240-odoo/android_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
+  <project name="ArrowOS-Devices/android_vendor_motorola_sm7325-common" path="vendor/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
   <project name="rajpatel2240-odoo/android_kernel_motorola_dubai" path="kernel/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20"/>
   <project name="surajdazz1/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai"/>
 
   <!-- <project path="packages/apps/Dialer" name="surajdazz/packages_apps_Dialer" remote="github" revision="13" /> -->
+  <!-- Modified Derp Repos -->
   <project path="vendor/bcr" name="rajpatel2240-odoo/vendor_bcr" remote="github" revision="13"/>
   <project path="vendor/derp" name="rajpatel2240-odoo/vendor_derp" remote="github" revision="13">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
+  <project path="bionic" name="rajpatel2240-odoo/bionic" remote="github" revision="13" />
+  <project path="device/derp/sepolicy" name="rajpatel2240-odoo/device_derp_sepolicy" remote="github" revision="13" />
+<!--   <project path="frameworks/base" name="rajpatel2240-odoo/frameworks_base" remote="github" revision="13" /> -->
+  <project path="hardware/interfaces" name="rajpatel2240-odoo/hardware_interfaces" remote="github" revision="13" />
 
 </manifest>
